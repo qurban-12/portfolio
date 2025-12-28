@@ -238,14 +238,18 @@
         }
 
         .about-image {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 20px;
-            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 5rem;
+        }
+
+        .about-image img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
             box-shadow: 0 20px 60px rgba(99, 102, 241, 0.3);
+            border: 3px solid var(--primary);
         }
 
         /* Skills Section */
@@ -627,13 +631,13 @@
         <div class="about-content">
             <div class="about-text">
                 <h3>Hello! I'm Qurban Ali</h3>
-                <p>I'm a passionate Computer Science student at [University Name] with a deep interest in software development and problem-solving. My journey in tech started [brief backstory], and since then, I've been constantly learning and building projects that matter.</p>
+                <p>I'm a passionate Computer Science student at Sukkur IBA University with a deep interest in software development and problem-solving. My journey in tech started [brief backstory], and since then, I've been constantly learning and building projects that matter.</p>
                 <p>When I'm not coding, you can find me [hobbies/interests]. I believe in continuous learning and staying updated with the latest technologies to create impactful solutions.</p>
                 <p>Currently, I'm focused on [current focus areas] and looking for opportunities to apply my skills in real-world scenarios.</p>
                 <a href="#contact" class="btn btn-primary">Let's Connect</a>
             </div>
             <div class="about-image">
-                📸
+                <img src="qurban.png" alt="Qurban Ali - Profile Picture">
             </div>
         </div>
     </section>
